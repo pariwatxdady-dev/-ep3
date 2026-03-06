@@ -104,3 +104,6 @@ document.getElementById("contentBox").innerHTML=`
 <h2>${topics[index].title}</h2>
 
 ${topics[index].content}
+
+`
+}
