@@ -1,109 +1,85 @@
-const topics = [
-
 {
 title:"คอมพิวเตอร์",
+
 content:`
 
-<h3>คอมพิวเตอร์คืออะไร</h3>
-<p>คอมพิวเตอร์คืออุปกรณ์ที่ใช้ประมวลผลข้อมูลตามคำสั่ง</p>
+<img class="topic-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475">
 
+<h3>1. ความหมายของคอมพิวเตอร์</h3>
+<p>
+คอมพิวเตอร์คืออุปกรณ์อิเล็กทรอนิกส์ที่สามารถรับข้อมูล (Input)
+นำข้อมูลมาประมวลผล (Process) และแสดงผลลัพธ์ (Output)
+ตามชุดคำสั่งที่เรียกว่าโปรแกรม
+</p>
+
+<h3>2. ส่วนประกอบหลักของคอมพิวเตอร์</h3>
 <ul>
-<li>CPU</li>
-<li>RAM</li>
-<li>Storage</li>
-<li>Input / Output</li>
+<li>CPU หน่วยประมวลผลกลาง ทำหน้าที่คำนวณและควบคุมระบบ</li>
+<li>RAM หน่วยความจำหลักสำหรับเก็บข้อมูลชั่วคราว</li>
+<li>Storage อุปกรณ์เก็บข้อมูล เช่น SSD หรือ HDD</li>
+<li>Input Device เช่น เมาส์ คีย์บอร์ด</li>
+<li>Output Device เช่น จอภาพ ลำโพง</li>
 </ul>
-`
-},
 
-{
-title:"อินเทอร์เน็ต",
-content:`
-
-<h3>อินเทอร์เน็ต</h3>
-<p>เครือข่ายที่เชื่อมต่อคอมพิวเตอร์ทั่วโลก</p>
-
+<h3>3. ประเภทของคอมพิวเตอร์</h3>
 <ul>
-<li>เว็บไซต์</li>
-<li>อีเมล</li>
-<li>Cloud</li>
-<li>Video call</li>
+<li>Desktop Computer</li>
+<li>Laptop</li>
+<li>Tablet</li>
+<li>Supercomputer</li>
 </ul>
-`
-},
 
-{
-title:"Cyber Security",
-content:`
+<h3>4. การทำงานของคอมพิวเตอร์</h3>
+<p>
+คอมพิวเตอร์ทำงานตามขั้นตอน Input → Process → Output
+โดยผู้ใช้จะป้อนข้อมูลเข้าไปผ่านอุปกรณ์ Input
+จากนั้น CPU จะประมวลผลข้อมูลและแสดงผลลัพธ์ออกมา
+</p>
 
-<h3>ความปลอดภัยไซเบอร์</h3>
-<p>การป้องกันข้อมูลจากการโจมตีทางอินเทอร์เน็ต</p>
-
+<h3>5. ประโยชน์ของคอมพิวเตอร์</h3>
 <ul>
-<li>Virus</li>
-<li>Malware</li>
-<li>Phishing</li>
-<li>Ransomware</li>
+<li>ใช้ทำงานเอกสาร</li>
+<li>ใช้เรียนออนไลน์</li>
+<li>ใช้เขียนโปรแกรม</li>
+<li>ใช้สร้างเว็บไซต์</li>
+<li>ใช้วิเคราะห์ข้อมูล</li>
 </ul>
-`
-},
 
-{
-title:"AI",
-content:`
-
-<h3>Artificial Intelligence</h3>
-<p>เทคโนโลยีที่ทำให้คอมพิวเตอร์เรียนรู้และตัดสินใจได้</p>
-
+<h3>6. ตัวอย่างการใช้งาน</h3>
 <ul>
-<li>Chatbot</li>
-<li>Face recognition</li>
-<li>Self-driving car</li>
+<li>นักเรียนใช้ค้นคว้าข้อมูล</li>
+<li>บริษัทใช้จัดการข้อมูลลูกค้า</li>
+<li>นักพัฒนาใช้สร้างโปรแกรม</li>
 </ul>
-`
-},
 
-{
-title:"Programming",
-content:`
-
-<h3>การเขียนโปรแกรม</h3>
-<p>การเขียนคำสั่งให้คอมพิวเตอร์ทำงาน</p>
-
+<h3>7. ข้อดีของคอมพิวเตอร์</h3>
 <ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Python</li>
+<li>ประมวลผลรวดเร็ว</li>
+<li>เก็บข้อมูลจำนวนมาก</li>
+<li>ทำงานอัตโนมัติได้</li>
 </ul>
-`
-},
 
-{
-title:"Social Media",
-content:`
-
-<h3>โซเชียลมีเดีย</h3>
-<p>แพลตฟอร์มสำหรับการสื่อสารและแบ่งปันข้อมูล</p>
-
+<h3>8. ข้อจำกัด</h3>
 <ul>
-<li>Facebook</li>
-<li>Instagram</li>
-<li>TikTok</li>
-<li>YouTube</li>
+<li>ต้องใช้ไฟฟ้า</li>
+<li>อาจมีไวรัสคอมพิวเตอร์</li>
+<li>ต้องมีการดูแลรักษา</li>
 </ul>
+
+<h3>9. เทคโนโลยีคอมพิวเตอร์สมัยใหม่</h3>
+<ul>
+<li>Cloud Computing</li>
+<li>Artificial Intelligence</li>
+<li>Big Data</li>
+</ul>
+
+<h3>10. สรุป</h3>
+<p>
+คอมพิวเตอร์เป็นเทคโนโลยีที่สำคัญในโลกปัจจุบัน
+ช่วยให้มนุษย์ทำงานได้รวดเร็วขึ้น
+และมีบทบาทในทุกด้านของชีวิต
+</p>
+
 `
 }
 
-]
-
-function showContent(index){
-
-document.getElementById("contentBox").innerHTML=`
-
-<h2>${topics[index].title}</h2>
-
-${topics[index].content}
-
-`
-}
